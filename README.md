@@ -25,9 +25,9 @@ Each of the carriers are keyed off of a code for country or region (typically th
 
 The carriers are ordered as follows:  United States, Canada, countries sorted by their English name, and then weird stuff that didn't fit in anywhere.
 
-Some carriers have more than one possible e-mail address.  Each carrier is listed in an array as ["Display name", "{phone}@address.com", "{phone}@address2.com", ...]  The first address listed is likely to work without any issue.  If you want to get fancy, give the user the option of which address to use.
+Some carriers have more than one possible e-mail address.  Each carrier is listed in an array as ["Display name", "{number}@address.com", "{number}@address2.com", ...]  The first address listed is likely to work without any issue.  If you want to get fancy, give the user the option of which address to use.
 
-On the application/server end of things, replace the string '{phone}' with a user-supplied phone number.  Don't forget to do important stuff like sanitize the user's input so that only digits remain (no hyphens or other characters, just digits) and perform validation so users can't just enter any ol' e-mail address or otherwise break your desired system.  It is advisable to show the full e-mail address to the user that includes their mobile number so they can have the option to try it out first with their own e-mail provider to make sure it works.  A lot of mobile phone users don't know that e-mail to SMS even exists.
+On the application/server end of things, replace the string '{number}' with a user-supplied phone number.  Don't forget to do important stuff like sanitize the user's input so that only digits remain (no hyphens or other characters, just digits) and perform validation so users can't just enter any ol' e-mail address or otherwise break your desired system.  It is advisable to show the full e-mail address to the user that includes their mobile number so they can have the option to try it out first with their own e-mail provider to make sure it works.  A lot of mobile phone users don't know that e-mail to SMS even exists.
 
 If possible, use a black hole e-mail address for the bouncebacks that will happen.  SMS/MMS gateways are not the greatest at handling error conditions.
 
