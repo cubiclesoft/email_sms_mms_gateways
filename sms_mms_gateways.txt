@@ -13,6 +13,7 @@
 		"bg" : "Bulgaria",
 		"cn" : "China",
 		"co" : "Columbia",
+		"dm" : "Dominica",
 		"eg" : "Egypt",
 		"fr" : "France",
 		"de" : "Germany",
