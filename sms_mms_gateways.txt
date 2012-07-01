@@ -1,7 +1,7 @@
 {
 	"info" : "JSON array containing e-mail to SMS and MMS mappings constructed from the best available sources and DNS validations.  (C) 2012 CubicleSoft.  All Rights Reserved.",
 	"license" : "MIT or LGPL.  See http://github.com/cubiclesoft/email_sms_mms_gateways for details.",
-	"lastupdated" : "2012-02-12",
+	"lastupdated" : "2012-07-01",
 	"countries" : {
 		"us" : "United States",
 		"ca" : "Canada",
@@ -30,6 +30,7 @@
 		"np" : "Nepal",
 		"nl" : "Netherlands",
 		"nz" : "New Zealand",
+		"pa" : "Panama",
 		"pl" : "Poland",
 		"pr" : "Puerto Rico",
 		"sg" : "Singapore",
@@ -69,6 +70,7 @@
 			"cleartalk" : ["Cleartalk Wireless", "{number}@sms.cleartalk.us"],
 			"comcast_pcs" : ["Comcast PCS", "{number}@comcastpcs.textmsg.com"],
 			"cricket" : ["Cricket", "{number}@sms.mycricket.com"],
+			"cspire" : ["C Spire Wireless", "{number}@cspire1.com"],
 			"element" : ["Element Mobile", "{number}@sms.elementmobile.net"],
 			"esendex" : ["Esendex", "{number}@echoemail.net"],
 			"general_comm" : ["General Communications Inc.", "{number}@mobile.gci.net"],
@@ -78,9 +80,10 @@
 			"iwireless_tmobile" : ["i wireless (T-Mobile)", "{number}.iws@iwspcs.net"],
 			"iwireless_sprint" : ["i wireless (Sprint PCS)", "{number}@iwirelesshometext.com"],
 			"kajeet" : ["Kajeet", "{number}@mobile.kajeet.net"],
+			"longlines" : ["LongLines", "{number}@text.longlines.com"],
 			"metro_pcs" : ["Metro PCS", "{number}@mymetropcs.com"],
 			"nextel" : ["Nextel (Sprint)", "{number}@messaging.nextel.com", "{number}@page.nextel.com"],
-			"pageplus" : ["PagePlus Cellular", "{number}@vtext.com"],
+			"pageplus" : ["Page Plus Cellular", "{number}@vtext.com"],
 			"pioneer" : ["Pioneer Cellular", "{number}@zsend.com"],
 			"psc_wireless" : ["PSC Wireless", "{number}@sms.pscel.com"],
 			"rogers_wireless" : ["Rogers Wireless", "{number}@pcs.rogers.com"],
@@ -101,12 +104,13 @@
 			"verizon_wireless" : ["Verizon Wireless", "{number}@vtext.com"],
 			"viaero" : ["Viaero", "{number}@viaerosms.com"],
 			"virgin_mobile" : ["Virgin Mobile", "{number}@vmobl.com"],
+			"west_central" : ["West Central Wireless", "{number}@sms.wcc.net"],
 			"xit_comm" : ["XIT Communications", "{number}@sms.xit.net"]
 		},
 		"ca" : {
 			"aliant" : ["Aliant", "{number}@chat.wirefree.ca"],
 			"bellmobility" : ["Bell Mobility & Solo Mobile", "{number}@txt.bell.ca", "{number}@txt.bellmobility.ca"],
-			"fido" : ["Fido", "{number}@fido.ca"],
+			"fido" : ["Fido", "{number}@sms.fido.ca"],
 			"koodo" : ["Koodo Mobile", "{number}@msg.telus.com"],
 			"manitoba_telecom" : ["Manitoba Telecom/MTS Mobility", "{number}@text.mtsmobility.com"],
 			"northerntel" : ["NorthernTel", "{number}@txt.northerntelmobility.com"],
@@ -115,7 +119,8 @@
 			"sasktel" : ["SaskTel", "{number}@sms.sasktel.com", "{number}@pcs.sasktelmobility.com"],
 			"telebec" : ["Telebec", "{number}@txt.telebecmobilite.com"],
 			"telus" : ["Telus Mobility", "{number}@msg.telus.com"],
-			"virgin" : ["Virgin Mobile", "{number}@vmobile.ca"]
+			"virgin" : ["Virgin Mobile", "{number}@vmobile.ca"],
+			"wind_mobile" : ["Wind Mobile", "{number}@txt.windmobile.ca"]
 		},
 		"ar" : {
 			"claro" : ["CTI Movil (Claro)", "{number}@sms.ctimovil.com.ar"],
@@ -183,7 +188,7 @@
 			"airtel_chennai" : ["Airtel - Chennai", "{number}@airtelchennai.com"],
 			"airtel_karnataka" : ["Airtel - Karnataka", "{number}@airtelkk.com"],
 			"airtel_kerala" : ["Airtel - Kerala", "{number}@airtelkerala.com"],
-			"airtel_koltaka" : ["Airtel - Koltaka", "{number}@airtelkol.com"],
+			"airtel_kolkata" : ["Airtel - Kolkata", "{number}@airtelkol.com"],
 			"airtel_tamil_nadu" : ["Airtel - Tamil Nadu", "{number}@airtelmobile.com"],
 			"celforce" : ["Celforce", "{number}@celforce.com"],
 			"escotel" : ["Escotel Mobile", "{number}@escotelmobile.com"],
@@ -205,7 +210,7 @@
 			"ntt" : ["NTT DoCoMo", "{number}@docomo.ne.jp"],
 			"vodaphone_chuugoku" : ["Vodaphone - Chuugoku/Western", "{number}@n.vodafone.ne.jp"],
 			"vodaphone_hokkaido" : ["Vodaphone - Hokkaido", "{number}@d.vodafone.ne.jp"],
-			"vodaphone_hokuriko" : ["Vodaphone - Hokuriko/Central North", "{number}@r.vodafone.ne.jp"],
+			"vodaphone_hokuriku" : ["Vodaphone - Hokuriku/Central North", "{number}@r.vodafone.ne.jp"],
 			"vodaphone_kansai" : ["Vodaphone - Kansai/West", "{number}@k.vodafone.ne.jp"],
 			"vodaphone_kanto" : ["Vodaphone - Kanto", "{number}@k.vodafone.ne.jp"],
 			"vodaphone_koushin" : ["Vodaphone - Koushin", "{number}@k.vodafone.ne.jp"],
@@ -226,7 +231,7 @@
 			"nextel" : ["Nextel", "{number}@msgnextel.com.mx"]
 		},
 		"np" : {
-			"mero" : ["Mero Mobile", "{number}@sms.spicenepal.com"]
+			"ncell" : ["Ncell", "{number}@sms.ncell.com.np"]
 		},
 		"nl" : {
 			"orange" : ["Orange", "{number}@sms.orange.nl"],
@@ -235,6 +240,9 @@
 		"nz" : {
 			"telecom" : ["Telecom", "{number}@etxt.co.nz"],
 			"vodafone" : ["Vodafone", "{number}@mtxt.co.nz"]
+		},
+		"pa" : {
+			"mas_movil" : ["Mas Movil", "{number}@cwmovil.com"]
 		},
 		"pl" : {
 			"orange_polska" : ["Orange Polska", "{number}@orange.pl"],
@@ -303,9 +311,11 @@
 			"cincinnati_bell" : ["Cincinnati Bell", "{number}@mms.gocbw.com"],
 			"cricket" : ["Cricket", "{number}@mms.mycricket.com"],
 			"nextel" : ["Nextel (Sprint)", "{number}@messaging.nextel.com"],
+			"pageplus" : ["Page Plus Cellular", "{number}@vzwpix.com"],
 			"rogers_wireless" : ["Rogers Wireless", "{number}@mms.rogers.com"],
 			"sprint" : ["Sprint PCS", "{number}@pm.sprint.com"],
 			"straight_talk" : ["Straight Talk", "{number}@mypixmessages.com"],
+			"telus_mobility" : ["Telus Mobility", "{number}@mms.telusmobility.com"],
 			"tracfone" : ["Tracfone", "{number}@mmst5.tracfone.com"],
 			"us_cellular" : ["US Cellular", "{number}@mms.uscc.net"],
 			"verizon_wireless" : ["Verizon Wireless", "{number}@vzwpix.com"],
@@ -314,6 +324,7 @@
 		},
 		"ca" : {
 			"rogers_wireless" : ["Rogers Wireless", "{number}@mms.rogers.com"]
+			"telus_mobility" : ["Telus Mobility", "{number}@mms.telusmobility.com"],
 		},
 		"fr" : {
 			"bouygues" : ["Bouygues Telecom", "{number}@mms.bouyguestelecom.fr"]
