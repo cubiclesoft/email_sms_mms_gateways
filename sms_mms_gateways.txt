@@ -18,7 +18,6 @@
 		"fr" : "France",
 		"de" : "Germany",
 		"hk" : "Hong Kong",
-		"hu" : "Hungary",
 		"is" : "Iceland",
 		"in" : "India",
 		"ie" : "Ireland",
@@ -48,6 +47,7 @@
 	},
 	"sms_carriers" : {
 		"us" : {
+			"airfire_mobile" : ["Airfire Mobile", "{number}@sms.airfiremobile.com"],
 			"alltel" : ["Alltel", "{number}@message.alltel.com"],
 			"alltel_allied" : ["Alltel (Allied Wireless)", "{number}@sms.alltelwireless.com"],
 			"alaska_communications" : ["Alaska Communications", "{number}@msg.acsalaska.com"],
@@ -82,6 +82,7 @@
 			"kajeet" : ["Kajeet", "{number}@mobile.kajeet.net"],
 			"longlines" : ["LongLines", "{number}@text.longlines.com"],
 			"metro_pcs" : ["Metro PCS", "{number}@mymetropcs.com"],
+			"nextech" : ["Nextech", "{number}@sms.nextechwireless.com"],
 			"nextel" : ["Nextel (Sprint)", "{number}@messaging.nextel.com", "{number}@page.nextel.com"],
 			"pageplus" : ["Page Plus Cellular", "{number}@vtext.com"],
 			"pioneer" : ["Pioneer Cellular", "{number}@zsend.com"],
@@ -104,6 +105,7 @@
 			"verizon_wireless" : ["Verizon Wireless", "{number}@vtext.com"],
 			"viaero" : ["Viaero", "{number}@viaerosms.com"],
 			"virgin_mobile" : ["Virgin Mobile", "{number}@vmobl.com"],
+			"voyager_mobile" : ["Voyager Mobile", "{number}@text.voyagermobile.com"],
 			"west_central" : ["West Central Wireless", "{number}@sms.wcc.net"],
 			"xit_comm" : ["XIT Communications", "{number}@sms.xit.net"]
 		},
@@ -112,6 +114,7 @@
 			"bellmobility" : ["Bell Mobility & Solo Mobile", "{number}@txt.bell.ca", "{number}@txt.bellmobility.ca"],
 			"fido" : ["Fido", "{number}@sms.fido.ca"],
 			"koodo" : ["Koodo Mobile", "{number}@msg.telus.com"],
+			"lynx_mobility" : ["Lynx Mobility", "{number}@sms.lynxmobility.com"],
 			"manitoba_telecom" : ["Manitoba Telecom/MTS Mobility", "{number}@text.mtsmobility.com"],
 			"northerntel" : ["NorthernTel", "{number}@txt.northerntelmobility.com"],
 			"pc_telecom" : ["PC Telecom", "{number}@mobiletxt.ca"],
@@ -144,8 +147,7 @@
 		},
 		"bg" : {
 			"globul" : ["Globul", "{number}@sms.globul.bg"],
-			"mobiltel" : ["Mobiltel", "{number}@sms.mtel.net"],
-			"vivacom" : ["Vivacom", "{number}@sms.vivacom.bg"]
+			"mobiltel" : ["Mobiltel", "{number}@sms.mtel.net"]
 		},
 		"cn" : {
 			"china_mobile" : ["China Mobile", "{number}@139.com"]
@@ -172,9 +174,6 @@
 		},
 		"hk" : {
 			"csl" : ["CSL", "{number}@mgw.mmsc1.hkcsl.com"]
-		},
-		"hu" : {
-			"ozeki" : ["Ozeki", "{number}@ozekisms.com"]
 		},
 		"is" : {
 			"ogvodafone" : ["OgVodafone", "{number}@sms.is"],
@@ -245,7 +244,8 @@
 			"mas_movil" : ["Mas Movil", "{number}@cwmovil.com"]
 		},
 		"pl" : {
-			"orange_polska" : ["Orange Polska", "{number}@orange.pl"],
+			"orange_polska" : ["Orange Polska", "{number}@sms.orange.pl"],
+			"polkomtel" : ["Polkomtel", "+{number}@text.plusgsm.pl"],
 			"plus" : ["Plus", "+{number}@text.plusgsm.pl"]
 		},
 		"pr" : {
@@ -323,8 +323,8 @@
 			"virgin_mobile" : ["Virgin Mobile", "{number}@vmpix.com"]
 		},
 		"ca" : {
-			"rogers_wireless" : ["Rogers Wireless", "{number}@mms.rogers.com"]
-			"telus_mobility" : ["Telus Mobility", "{number}@mms.telusmobility.com"],
+			"rogers_wireless" : ["Rogers Wireless", "{number}@mms.rogers.com"],
+			"telus_mobility" : ["Telus Mobility", "{number}@mms.telusmobility.com"]
 		},
 		"fr" : {
 			"bouygues" : ["Bouygues Telecom", "{number}@mms.bouyguestelecom.fr"]
