@@ -316,6 +316,7 @@
 			"sprint" : ["Sprint PCS", "{number}@pm.sprint.com"],
 			"straight_talk" : ["Straight Talk", "{number}@mypixmessages.com"],
 			"telus_mobility" : ["Telus Mobility", "{number}@mms.telusmobility.com"],
+			"t_mobile" : ["T-Mobile", "{number}@tmomail.net"],
 			"tracfone" : ["Tracfone", "{number}@mmst5.tracfone.com"],
 			"us_cellular" : ["US Cellular", "{number}@mms.uscc.net"],
 			"verizon_wireless" : ["Verizon Wireless", "{number}@vzwpix.com"],
