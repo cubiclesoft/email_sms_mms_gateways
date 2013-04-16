@@ -315,6 +315,7 @@
 			"rogers_wireless" : ["Rogers Wireless", "{number}@mms.rogers.com"],
 			"sprint" : ["Sprint PCS", "{number}@pm.sprint.com"],
 			"straight_talk" : ["Straight Talk", "{number}@mypixmessages.com"],
+			"t_mobile" : ["T-Mobile", "{number}@tmomail.net"],
 			"telus_mobility" : ["Telus Mobility", "{number}@mms.telusmobility.com"],
 			"tracfone" : ["Tracfone", "{number}@mmst5.tracfone.com"],
 			"us_cellular" : ["US Cellular", "{number}@mms.uscc.net"],
