@@ -75,7 +75,6 @@
 			"esendex" : ["Esendex", "{number}@echoemail.net"],
 			"general_comm" : ["General Communications Inc.", "{number}@mobile.gci.net"],
 			"golden_state" : ["Golden State Cellular", "{number}@gscsms.com"],
-			"google_voice" : ["Google Voice", "{number}@txt.voice.google.com"],
 			"helio" : ["Helio", "{number}@myhelio.com"],
 			"iwireless_tmobile" : ["i wireless (T-Mobile)", "{number}.iws@iwspcs.net"],
 			"iwireless_sprint" : ["i wireless (Sprint PCS)", "{number}@iwirelesshometext.com"],
