@@ -1,7 +1,7 @@
 {
-	"info" : "JSON array containing e-mail to SMS and MMS mappings constructed from the best available sources and DNS validations.  (C) 2012 CubicleSoft.  All Rights Reserved.",
+	"info" : "JSON array containing e-mail to SMS and MMS mappings constructed from the best available sources and DNS validations.  (C) 2013 CubicleSoft.  All Rights Reserved.",
 	"license" : "MIT or LGPL.  See http://github.com/cubiclesoft/email_sms_mms_gateways for details.",
-	"lastupdated" : "2012-07-01",
+	"lastupdated" : "2013-06-22",
 	"countries" : {
 		"us" : "United States",
 		"ca" : "Canada",
@@ -13,10 +13,12 @@
 		"bg" : "Bulgaria",
 		"cn" : "China",
 		"co" : "Columbia",
+		"cz" : "Czech Republic",
 		"dm" : "Dominica",
 		"eg" : "Egypt",
 		"fr" : "France",
 		"de" : "Germany",
+		"gy" : "Guyana",
 		"hk" : "Hong Kong",
 		"is" : "Iceland",
 		"in" : "India",
@@ -32,6 +34,7 @@
 		"pa" : "Panama",
 		"pl" : "Poland",
 		"pr" : "Puerto Rico",
+		"ru" : "Russia",
 		"sg" : "Singapore",
 		"za" : "South Africa",
 		"kr" : "South Korea",
@@ -41,6 +44,7 @@
 		"ch" : "Switzerland",
 		"ua" : "Ukraine",
 		"uk" : "United Kingdom",
+		"uy" : "Uruguay",
 		"europe" : "Europe",
 		"latin_america" : "Latin America",
 		"int" : "International"
@@ -52,6 +56,7 @@
 			"alltel_allied" : ["Alltel (Allied Wireless)", "{number}@sms.alltelwireless.com"],
 			"alaska_communications" : ["Alaska Communications", "{number}@msg.acsalaska.com"],
 			"ameritech" : ["Ameritech", "{number}@paging.acswireless.com"],
+			"assurance_wireless" : ["Assurance Wireless", "{number}@vmobl.com"],
 			"at_and_t" : ["AT&T Wireless", "{number}@txt.att.net"],
 			"at_and_t_mobility" : ["AT&T Mobility (Cingular)", "{number}@txt.att.net", "{number}@cingularme.com", "{number}@mobile.mycingular.com"],
 			"at_and_t_paging" : ["AT&T Enterprise Paging", "{number}@page.att.net"],
@@ -60,22 +65,25 @@
 			"bluegrass" : ["Bluegrass Cellular", "{number}@sms.bluecell.com"],
 			"bluesky" : ["Bluesky Communications", "{number}@psms.bluesky.as"],
 			"blueskyfrog" : ["BlueSkyFrog", "{number}@blueskyfrog.com"],
-			"boostmobile" : ["Boost Mobile", "{number}@myboostmobile.com"],
+			"boostmobile" : ["Boost Mobile", "{number}@sms.myboostmobile.com", "{number}@myboostmobile.com"],
 			"cellcom" : ["Cellcom", "{number}@cellcom.quiktxt.com"],
 			"cellularsouth" : ["Cellular South", "{number}@csouth1.com"],
 			"centennial_wireless" : ["Centennial Wireless", "{number}@cwemail.com"],
 			"chariton_valley" : ["Chariton Valley Wireless", "{number}@sms.cvalley.net"],
+			"chat_mobility" : ["Chat Mobility", "{number}@mail.msgsender.com"],
 			"cincinnati_bell" : ["Cincinnati Bell", "{number}@gocbw.com"],
 			"cingular" : ["Cingular (Postpaid)", "{number}@cingular.com", "{number}@mobile.mycingular.com"],
 			"cleartalk" : ["Cleartalk Wireless", "{number}@sms.cleartalk.us"],
 			"comcast_pcs" : ["Comcast PCS", "{number}@comcastpcs.textmsg.com"],
 			"cricket" : ["Cricket", "{number}@sms.mycricket.com"],
 			"cspire" : ["C Spire Wireless", "{number}@cspire1.com"],
+			"dtc_wireless" : ["DTC Wireless", "{number}@sms.advantagecell.net"],
 			"element" : ["Element Mobile", "{number}@sms.elementmobile.net"],
 			"esendex" : ["Esendex", "{number}@echoemail.net"],
 			"general_comm" : ["General Communications Inc.", "{number}@mobile.gci.net"],
 			"golden_state" : ["Golden State Cellular", "{number}@gscsms.com"],
 			"google_voice" : ["Google Voice", "{number}@txt.voice.google.com"],
+			"greatcall" : ["GreatCall", "{number}@vtext.com"],
 			"helio" : ["Helio", "{number}@myhelio.com"],
 			"iwireless_tmobile" : ["i wireless (T-Mobile)", "{number}.iws@iwspcs.net"],
 			"iwireless_sprint" : ["i wireless (Sprint PCS)", "{number}@iwirelesshometext.com"],
@@ -83,20 +91,22 @@
 			"longlines" : ["LongLines", "{number}@text.longlines.com"],
 			"metro_pcs" : ["Metro PCS", "{number}@mymetropcs.com"],
 			"nextech" : ["Nextech", "{number}@sms.nextechwireless.com"],
-			"nextel" : ["Nextel (Sprint)", "{number}@messaging.nextel.com", "{number}@page.nextel.com"],
+			"nextel" : ["Nextel Direct Connect (Sprint)", "{number}@messaging.nextel.com", "{number}@page.nextel.com"],
 			"pageplus" : ["Page Plus Cellular", "{number}@vtext.com"],
 			"pioneer" : ["Pioneer Cellular", "{number}@zsend.com"],
 			"psc_wireless" : ["PSC Wireless", "{number}@sms.pscel.com"],
-			"rogers_wireless" : ["Rogers Wireless", "{number}@pcs.rogers.com"],
+			"rogers_wireless" : ["Rogers Wireless", "{number}@sms.rogers.com"],
 			"qwest" : ["Qwest", "{number}@qwestmp.com"],
 			"simple_mobile" : ["Simple Mobile", "{number}@smtext.com"],
+			"solavei" : ["Solavei", "{number}@tmomail.net"],
 			"south_central" : ["South Central Communications", "{number}@rinasms.com"],
 			"southernlink" : ["Southern Link", "{number}@page.southernlinc.com"],
-			"sprint" : ["Sprint PCS", "{number}@messaging.sprintpcs.com"],
+			"sprint" : ["Sprint PCS (CDMA)", "{number}@messaging.sprintpcs.com"],
 			"straight_talk" : ["Straight Talk", "{number}@vtext.com"],
 			"syringa" : ["Syringa Wireless", "{number}@rinasms.com"],
 			"t_mobile" : ["T-Mobile", "{number}@tmomail.net"],
 			"teleflip" : ["Teleflip", "{number}@teleflip.com"],
+			"ting" : ["Ting", "{number}@message.ting.com"],
 			"tracfone" : ["Tracfone", "{number}@mmst5.tracfone.com"],
 			"telus_mobility" : ["Telus Mobility", "{number}@msg.telus.com"],
 			"unicel" : ["Unicel", "{number}@utext.com"],
@@ -118,7 +128,7 @@
 			"manitoba_telecom" : ["Manitoba Telecom/MTS Mobility", "{number}@text.mtsmobility.com"],
 			"northerntel" : ["NorthernTel", "{number}@txt.northerntelmobility.com"],
 			"pc_telecom" : ["PC Telecom", "{number}@mobiletxt.ca"],
-			"rogers_wireless" : ["Rogers Wireless", "{number}@pcs.rogers.com"],
+			"rogers_wireless" : ["Rogers Wireless", "{number}@sms.rogers.com"],
 			"sasktel" : ["SaskTel", "{number}@sms.sasktel.com", "{number}@pcs.sasktelmobility.com"],
 			"telebec" : ["Telebec", "{number}@txt.telebecmobilite.com"],
 			"telus" : ["Telus Mobility", "{number}@msg.telus.com"],
@@ -135,8 +145,7 @@
 			"setar" : ["Setar Mobile", "{number}@mas.aw"]
 		},
 		"au" : {
-			"t_mobile" : ["T-Mobile (Optus Zoo)", "{number}@optusmobile.com.au"],
-			"utbox" : ["UTBox", "{number}@sms.utbox.net"]
+			"t_mobile" : ["T-Mobile (Optus Zoo)", "{number}@optusmobile.com.au"]
 		},
 		"be" : {
 			"mobistar" : ["Mobistar", "{number}@mobistar.be"]
@@ -156,6 +165,9 @@
 			"comcel" : ["Comcel", "{number}@comcel.com.co"],
 			"movistar" : ["Movistar", "{number}@movistar.com.co"]
 		},
+		"cz" : {
+			"vodaphone" : ["Vodaphone", "{number}@vodafonemail.cz"]
+		},
 		"dm" : {
 			"digicel" : ["Digicel", "{number}@digitextdm.com"]
 		},
@@ -171,6 +183,9 @@
 			"eplus" : ["E-Plus", "{number}@smsmail.eplus.de"],
 			"o2" : ["O2", "{number}@o2online.de"],
 			"vodaphone" : ["Vodaphone", "{number}@vodafone-sms.de"]
+		},
+		"gy" : {
+			"guyana_telephone" : ["Guyana Telephone & Telegraph", "{number}@sms.cellinkgy.com"]
 		},
 		"hk" : {
 			"csl" : ["CSL", "{number}@mgw.mmsc1.hkcsl.com"]
@@ -251,6 +266,9 @@
 		"pr" : {
 			"claro" : ["Claro", "{number}@vtexto.com"]
 		},
+		"ru" : {
+			"beeline" : ["Beeline", "{number}@sms.beemail.ru"]
+		},
 		"sg" : {
 			"m1" : ["M1", "{number}@m1.com.sg"]
 		},
@@ -282,14 +300,15 @@
 		"uk" : {
 			"aql" : ["aql", "{number}@text.aql.com"],
 			"esendex" : ["Esendex", "{number}@echoemail.net"],
-			"hay_systems" : ["Hay Systems Ltd (HSL)", "{number}@sms.haysystems.com"],
+			"hay_systems" : ["HSL Mobile (Hay Systems Ltd)", "{number}@sms.haysystems.com"],
 			"o2" : ["O2", "{number}@mmail.co.uk"],
 			"orange" : ["Orange", "{number}@orange.net"],
 			"t_mobile" : ["T-Mobile", "{number}@t-mobile.uk.net"],
 			"txtlocal" : ["Txtlocal", "{number}@txtlocal.co.uk"],
-			"unimovil" : ["UniMovil Corporation", "{number}@viawebsms.com"],
-			"mycoolsms" : ["My-Cool-SMS", "{number}@my-cool-sms.com"],
-			"virgin" : ["Virgin Mobile", "{number}@vxtras.com"]
+			"unimovil" : ["UniMovil Corporation", "{number}@viawebsms.com"]
+		},
+		"uy" : {
+			"movistar" : ["Movistar", "{number}@sms.movistar.com.uy"]
 		},
 		"europe" : {
 			"tellustalk" : ["TellusTalk", "{number}@esms.nu"]
@@ -308,18 +327,20 @@
 			"alltel_allied" : ["Alltel (Allied Wireless)", "{number}@mms.alltelwireless.com"],
 			"at_and_t" : ["AT&T Wireless", "{number}@mms.att.net"],
 			"bluegrass" : ["Bluegrass Cellular", "{number}@mms.bluecell.com"],
+			"boostmobile" : ["Boost Mobile", "{number}@myboostmobile.com"],
 			"cincinnati_bell" : ["Cincinnati Bell", "{number}@mms.gocbw.com"],
 			"cricket" : ["Cricket", "{number}@mms.mycricket.com"],
 			"nextel" : ["Nextel (Sprint)", "{number}@messaging.nextel.com"],
-			"pageplus" : ["Page Plus Cellular", "{number}@vzwpix.com"],
+			"pageplus" : ["Page Plus Cellular", "{number}@vzwpix.com", "{number}@mypixmessages.com"],
 			"rogers_wireless" : ["Rogers Wireless", "{number}@mms.rogers.com"],
+			"solavei" : ["Solavei", "{number}@tmomail.net"],
 			"sprint" : ["Sprint PCS", "{number}@pm.sprint.com"],
 			"straight_talk" : ["Straight Talk", "{number}@mypixmessages.com"],
 			"t_mobile" : ["T-Mobile", "{number}@tmomail.net"],
 			"telus_mobility" : ["Telus Mobility", "{number}@mms.telusmobility.com"],
 			"tracfone" : ["Tracfone", "{number}@mmst5.tracfone.com"],
 			"us_cellular" : ["US Cellular", "{number}@mms.uscc.net"],
-			"verizon_wireless" : ["Verizon Wireless", "{number}@vzwpix.com"],
+			"verizon_wireless" : ["Verizon Wireless", "{number}@vzwpix.com", "{number}@mypixmessages.com"],
 			"viaero" : ["Viaero", "{number}@mmsviaero.com"],
 			"virgin_mobile" : ["Virgin Mobile", "{number}@vmpix.com"]
 		},

@@ -23,7 +23,7 @@ Using the file is pretty straight-forward.  Just load the file, JSON decode it (
 
 Each of the carriers are keyed off of a code for country or region (typically the ICANN TLD).  For example, 'us' is for 'United States'.  The 'countries' mapping can be used to map the code to a display name.  The key names are carefully chosen for maximum portability and no conflicts.  For example, if a web form contains a dropdown 'select' box, a 'us-at_and_t' value would be able to select the 'United States - AT&T' carrier.
 
-The carriers are ordered as follows:  United States, Canada, countries sorted by their English name, and then weird stuff that didn't fit in anywhere.
+The carriers are ordered as follows:  United States, Canada, countries sorted by their English name, and then weird stuff that doesn't fit in anywhere else.
 
 Some carriers have more than one possible e-mail address.  Each carrier is listed in an array as ["Display name", "{number}@address.com", "{number}@address2.com", ...]  The first address listed is likely to work without any issue.  If you want to get fancy, give the user the option of which address to use.
 
@@ -34,6 +34,8 @@ If possible, use a black hole e-mail address for the bouncebacks that will happe
 Program your application to handle the case where a carrier ceases to exist and the entry vanishes or changes in the file.  It does happen.  Users may also change carriers and transfer their number to the new carrier.  Be as flexible as possible.
 
 'lastupdated' contains the date of the last update of the file.  This exists so your application can figure out if it is working with stale information.
+
+Mobile carriers don't actually necessarily need to own the network they are using.  These are known as Mobile Virtual Network Operators (MVNO).  An example is Tracfone, which uses multiple networks to deliver service to their customers - they negotiate the lowest possible rates from multiple providers such as AT&T, Sprint, T-Mobile, etc.  Straight Talk is another example of a MVNO, which may actually use Tracfone under the hood, but it gets confusing when multiple layers are involved.  The problem with MVNOs is that the user knows the brand name (e.g. Tracfone) but not their actual carrier (e.g. AT&T) until they go to do e-mail to SMS.  Each MVNO is constantly changing and bartering for the lowest prices to stay competitive.  As a result, the quality of this list is affected.  In general, the carrier most likely to be used is specified as the entry if the MVNO doesn't offer their own e-mail to SMS gateway.
 
 Finally, this solution isn't going to work for everyone.  If you absolutely need SMS/MMS to work with the least hassle for your users, you will need to spend money.  There is currently no way around this.  Look for a 'GSM modem' if you need to go all out.  There are also web services like Twilio and Tropo available that do a lot of the hard work for you.  Each solution has upsides and downsides.
 
