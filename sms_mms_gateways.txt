@@ -1,7 +1,7 @@
 {
 	"info" : "JSON array containing e-mail to SMS and MMS mappings constructed from the best available sources and DNS validations.  (C) 2013 CubicleSoft.  All Rights Reserved.",
 	"license" : "MIT or LGPL.  See http://github.com/cubiclesoft/email_sms_mms_gateways for details.",
-	"lastupdated" : "2013-06-22",
+	"lastupdated" : "2013-02-08",
 	"countries" : {
 		"us" : "United States",
 		"ca" : "Canada",
@@ -16,6 +16,7 @@
 		"cz" : "Czech Republic",
 		"dm" : "Dominica",
 		"eg" : "Egypt",
+		"fo" : "Faroe Islands",
 		"fr" : "France",
 		"de" : "Germany",
 		"gy" : "Guyana",
@@ -174,6 +175,9 @@
 		"eg" : {
 			"mobinil" : ["Mobinil", "{number}@mobinil.net"],
 			"vodaphone" : ["Vodaphone", "{number}@vodafone.com.eg"]
+		},
+		"fo" : {
+			"foroya_tele" : ["Foroya tele", "{number}@gsm.fo"]
 		},
 		"fr" : {
 			"sfr" : ["SFR", "{number}@sfr.fr"],
