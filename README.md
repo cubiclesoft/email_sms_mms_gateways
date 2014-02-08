@@ -42,6 +42,6 @@ Finally, this solution isn't going to work for everyone.  If you absolutely need
 Sources
 -------
 
-The initial release of this project was a lot of manual data entry (yuck).  Wikipedia was the most helpful source and may continue to be so - it is pretty easy to look at the history diffs to see what has changed.  A couple other bits of information I found scattered around the Internet were also merged in.  A quick little command-line PHP script that checked the MX and A records of each domain helped identify and remove a number of obviously broken entries.
+The initial release of this project was a lot of manual data entry (yuck).  Wikipedia was the most helpful source - it was pretty easy to look at the history diffs to see what had changed.  Unfortunately, the article was deleted and the Internet now has no central source for the information.  Pull requests (or just open an issue in the tracker) are probably the only thing that will keep this repo current.  A couple other bits of information I found scattered around the Internet were also merged in.  A quick little command-line PHP script that checked the MX and A records of each domain helped identify and remove a number of obviously broken entries.
 
 I'm pretty sure this is the most complete and functional list of this kind.  It is certainly the first time that this data has been massaged into a format suitable for use in most programming languages.  You're welcome.
