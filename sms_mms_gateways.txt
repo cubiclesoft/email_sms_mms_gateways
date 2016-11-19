@@ -1,5 +1,5 @@
 {
-	"info" : "JSON array containing e-mail to SMS and MMS mappings constructed from the best available sources and DNS validations.  (C) 2013 CubicleSoft.  All Rights Reserved.",
+	"info" : "JSON array containing e-mail to SMS and MMS mappings constructed from the best available sources and DNS validations.  (C) 2016 CubicleSoft.  All Rights Reserved.",
 	"license" : "MIT or LGPL.  See http://github.com/cubiclesoft/email_sms_mms_gateways for details.",
 	"lastupdated" : "2016-11-18",
 	"countries" : {
@@ -95,6 +95,7 @@
 			"nextel" : ["Nextel Direct Connect (Sprint)", "{number}@messaging.nextel.com", "{number}@page.nextel.com"],
 			"pageplus" : ["Page Plus Cellular", "{number}@vtext.com"],
 			"pioneer" : ["Pioneer Cellular", "{number}@zsend.com"],
+			"project_fi" : ["Project Fi", "{number}@msg.fi.google.com"],
 			"psc_wireless" : ["PSC Wireless", "{number}@sms.pscel.com"],
 			"rogers_wireless" : ["Rogers Wireless", "{number}@sms.rogers.com"],
 			"qwest" : ["Qwest", "{number}@qwestmp.com"],
