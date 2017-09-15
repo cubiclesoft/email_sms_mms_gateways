@@ -124,7 +124,7 @@
 		"ca" : {
 			"aliant" : ["Aliant", "{number}@chat.wirefree.ca"],
 			"bellmobility" : ["Bell Mobility & Solo Mobile", "{number}@txt.bell.ca", "{number}@txt.bellmobility.ca"],
-			"fido" : ["Fido", "{number}@sms.fido.ca"],
+			"fido" : ["Fido", "{number}@fido.ca"],
 			"koodo" : ["Koodo Mobile", "{number}@msg.telus.com"],
 			"lynx_mobility" : ["Lynx Mobility", "{number}@sms.lynxmobility.com"],
 			"manitoba_telecom" : ["Manitoba Telecom/MTS Mobility", "{number}@text.mtsmobility.com"],
