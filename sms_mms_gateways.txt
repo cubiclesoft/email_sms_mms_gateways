@@ -1,7 +1,7 @@
 {
-	"info" : "JSON array containing e-mail to SMS and MMS mappings constructed from the best available sources and DNS validations.  (C) 2016 CubicleSoft.  All Rights Reserved.",
+	"info" : "JSON array containing e-mail to SMS and MMS mappings constructed from the best available sources and DNS validations.  (C) 2017 CubicleSoft.  All Rights Reserved.",
 	"license" : "MIT or LGPL.  See http://github.com/cubiclesoft/email_sms_mms_gateways for details.",
-	"lastupdated" : "2016-11-18",
+	"lastupdated" : "2017-11-08",
 	"countries" : {
 		"us" : "United States",
 		"ca" : "Canada",
@@ -76,6 +76,7 @@
 			"cingular" : ["Cingular (Postpaid)", "{number}@cingular.com", "{number}@mobile.mycingular.com"],
 			"cleartalk" : ["Cleartalk Wireless", "{number}@sms.cleartalk.us"],
 			"comcast_pcs" : ["Comcast PCS", "{number}@comcastpcs.textmsg.com"],
+			"consumer_cellular" : ["Consumer Cellular", "{number}@mailmymobile.net"],
 			"cricket" : ["Cricket", "{number}@sms.mycricket.com"],
 			"cspire" : ["C Spire Wireless", "{number}@cspire1.com"],
 			"dtc_wireless" : ["DTC Wireless", "{number}@sms.advantagecell.net"],
