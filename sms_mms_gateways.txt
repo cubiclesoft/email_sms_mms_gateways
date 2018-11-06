@@ -67,6 +67,7 @@
 			"bluesky" : ["Bluesky Communications", "{number}@psms.bluesky.as"],
 			"blueskyfrog" : ["BlueSkyFrog", "{number}@blueskyfrog.com"],
 			"boostmobile" : ["Boost Mobile", "{number}@sms.myboostmobile.com", "{number}@myboostmobile.com"],
+			"carolinawest" : ["Carolina West Wireless", "{number}@cwwsms.com "],
 			"cellcom" : ["Cellcom", "{number}@cellcom.quiktxt.com"],
 			"cellularsouth" : ["Cellular South", "{number}@csouth1.com"],
 			"centennial_wireless" : ["Centennial Wireless", "{number}@cwemail.com"],
