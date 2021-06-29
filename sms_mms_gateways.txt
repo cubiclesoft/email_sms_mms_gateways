@@ -1,5 +1,5 @@
 {
-	"info" : "JSON array containing e-mail to SMS and MMS mappings constructed from the best available sources and DNS validations.  (C) 2018 CubicleSoft.  All Rights Reserved.",
+	"info" : "JSON array containing e-mail to SMS and MMS mappings constructed from the best available sources and DNS validations.  (C) 2021 CubicleSoft.  All Rights Reserved.",
 	"license" : "MIT or LGPL.  See http://github.com/cubiclesoft/email_sms_mms_gateways for details.",
 	"lastupdated" : "2021-06-29",
 	"countries" : {
