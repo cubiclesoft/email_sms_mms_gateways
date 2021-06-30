@@ -99,7 +99,7 @@
 			"pioneer" : ["Pioneer Cellular", "{number}@zsend.com"],
 			"project_fi" : ["Project Fi", "{number}@msg.fi.google.com"],
 			"psc_wireless" : ["PSC Wireless", "{number}@sms.pscel.com"],
-			"rogers_wireless" : ["Rogers Wireless", "{number}@sms.rogers.com"],
+			"rogers_wireless" : ["Rogers Wireless", "{number}@sms.rogers.com", "{number}@pcs.rogers.com"],
 			"qwest" : ["Qwest", "{number}@qwestmp.com"],
 			"simple_mobile" : ["Simple Mobile", "{number}@smtext.com"],
 			"solavei" : ["Solavei", "{number}@tmomail.net"],
@@ -110,6 +110,7 @@
 			"syringa" : ["Syringa Wireless", "{number}@rinasms.com"],
 			"t_mobile" : ["T-Mobile", "{number}@tmomail.net"],
 			"teleflip" : ["Teleflip", "{number}@teleflip.com"],
+			"ting" : ["Ting", "{number}@message.ting.com"],
 			"tracfone" : ["Tracfone", "{number}@mmst5.tracfone.com"],
 			"telus_mobility" : ["Telus Mobility", "{number}@msg.telus.com"],
 			"unicel" : ["Unicel", "{number}@utext.com"],
@@ -131,7 +132,7 @@
 			"manitoba_telecom" : ["Manitoba Telecom/MTS Mobility", "{number}@text.mtsmobility.com"],
 			"northerntel" : ["NorthernTel", "{number}@txt.northerntelmobility.com"],
 			"pc_telecom" : ["PC Telecom", "{number}@mobiletxt.ca"],
-			"rogers_wireless" : ["Rogers Wireless", "{number}@sms.rogers.com"],
+			"rogers_wireless" : ["Rogers Wireless", "{number}@sms.rogers.com", "{number}@pcs.rogers.com"],
 			"sasktel" : ["SaskTel", "{number}@sms.sasktel.com", "{number}@pcs.sasktelmobility.com"],
 			"telebec" : ["Telebec", "{number}@txt.telebecmobilite.com"],
 			"telus" : ["Telus Mobility", "{number}@msg.telus.com"],
@@ -339,7 +340,7 @@
 			"nextel" : ["Nextel (Sprint)", "{number}@messaging.nextel.com"],
 			"pageplus" : ["Page Plus Cellular", "{number}@vzwpix.com", "{number}@mypixmessages.com"],
 			"project_fi" : ["Project Fi", "{number}@msg.fi.google.com"],
-			"rogers_wireless" : ["Rogers Wireless", "{number}@mms.rogers.com"],
+			"rogers_wireless" : ["Rogers Wireless", "{number}@mms.rogers.com", "{number}@pcs.rogers.com"],
 			"solavei" : ["Solavei", "{number}@tmomail.net"],
 			"sprint" : ["Sprint PCS", "{number}@pm.sprint.com"],
 			"straight_talk" : ["Straight Talk", "{number}@mypixmessages.com"],
@@ -352,7 +353,7 @@
 			"virgin_mobile" : ["Virgin Mobile", "{number}@vmpix.com"]
 		},
 		"ca" : {
-			"rogers_wireless" : ["Rogers Wireless", "{number}@mms.rogers.com"],
+			"rogers_wireless" : ["Rogers Wireless", "{number}@mms.rogers.com", "{number}@pcs.rogers.com"],
 			"telus_mobility" : ["Telus Mobility", "{number}@mms.telusmobility.com"]
 		},
 		"fr" : {
